@@ -1,0 +1,111 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-heading {
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    margin: 0 2rem ;
+    align-items: center;
+}
+.header-link {
+    margin-right: 1.8rem;
+    cursor: pointer;
+    background-color: #FF6B6B;
+    color:#11052C;
+    border-radius:.9rem;
+    padding: .7rem 1rem;
+    color:white;
+    transition: all .5s;
+}
+.header-link:hover {
+    background-color: #082032;
+}
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+}
+.section-img{
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+}
+.section-btn {
+    cursor: pointer;
+    padding: .8rem;
+    border-radius: .8rem;
+    border: none;
+    outline: none;
+    background-color: #FF6B6B;
+    color: white;
+    font-size: 1rem;
+    transition: all .4s;
+}
+.section-btn:hover {
+    background-color: #082032;
+}
+
+.form {
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    border-radius:.5rem;
+    padding:1.5rem;
+    border: 1px solid black;
+}
+.input-user, .input-email, .input-password {
+    /* border:none; */
+    outline: none;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+/* Footer */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copy {
+    text-align: center;
+    margin-bottom: -20rem;
+}
+/* End of Footer */

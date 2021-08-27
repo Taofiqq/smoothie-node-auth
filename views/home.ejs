@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Header Partials -->
+    <%- include('./partials/header.ejs') %> 
+
+
+<body>
+        <header class="header">
+            <div class="header-container">
+                <a href="/" class="header-heading">Taofiq Smoothies</a>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="/login" class="header-link">Log in</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="/signup" class="header-link">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section>
+               <div class="section-container">
+                <img src="/img/home.png" alt="Smoothie img" class=section-img>
+                <button class="section-btn">View our Catalogue</button>
+               </div>
+            </section>
+        </main>
+
+    <!-- footer partials -->
+    <%- include('./partials/footer.ejs') %> 
+</body>
+</html>
